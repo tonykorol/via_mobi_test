@@ -1,0 +1,22 @@
+[project]
+name = "via-mobi-test"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Anton Karol",email = "work.antonkarol@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio (>=5.21.0,<6.0.0)",
+    "fastapi (>=0.115.11,<0.116.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "pydantic-settings (>=2.8.1,<3.0.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "transformers (>=4.49.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
